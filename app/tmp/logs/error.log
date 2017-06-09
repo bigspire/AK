@@ -1,0 +1,212 @@
+2017-05-13 21:15:07 Error: [NotFoundException] Not Found
+Request URL: /ak4/
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\lib\Cake\View\View.php(971): include()
+#1 F:\xampp\htdocs\ak4\lib\Cake\View\View.php(933): View->_evaluate('F:\xampp\htdocs...', Array)
+#2 F:\xampp\htdocs\ak4\lib\Cake\View\View.php(473): View->_render('F:\xampp\htdocs...')
+#3 F:\xampp\htdocs\ak4\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 F:\xampp\htdocs\ak4\app\Controller\PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 F:\xampp\htdocs\ak4\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 F:\xampp\htdocs\ak4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 F:\xampp\htdocs\ak4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 F:\xampp\htdocs\ak4\index.php(41): require('F:\xampp\htdocs...')
+#11 {main}
+2017-05-13 21:15:38 Error: [NotFoundException] Not Found
+Request URL: /ak4/
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\lib\Cake\View\View.php(971): include()
+#1 F:\xampp\htdocs\ak4\lib\Cake\View\View.php(933): View->_evaluate('F:\xampp\htdocs...', Array)
+#2 F:\xampp\htdocs\ak4\lib\Cake\View\View.php(473): View->_render('F:\xampp\htdocs...')
+#3 F:\xampp\htdocs\ak4\lib\Cake\Controller\Controller.php(963): View->render('home', NULL)
+#4 F:\xampp\htdocs\ak4\app\Controller\PagesController.php(72): Controller->render('home')
+#5 [internal function]: PagesController->display('home')
+#6 F:\xampp\htdocs\ak4\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#7 F:\xampp\htdocs\ak4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 F:\xampp\htdocs\ak4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#9 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 F:\xampp\htdocs\ak4\index.php(41): require('F:\xampp\htdocs...')
+#11 {main}
+2017-05-13 21:16:42 Error: [MissingActionException] Action AdminController::add_project.php() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminController',
+  'action' => 'add_project.php',
+)
+Request URL: /ak4/admin/add_project.php
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 F:\xampp\htdocs\ak4\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(AdminController), Object(CakeRequest))
+#2 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-05-13 21:16:54 Error: [MissingControllerException] Controller class HiringController could not be found.
+Exception Attributes: array (
+  'class' => 'HiringController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/hiring/admin/add_project.php
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-13 21:16:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-13 21:16:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/images/ui-icons_888888_256x240.png
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-13 21:17:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/images/ui-icons_888888_256x240.png
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-13 21:17:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/colorbox.css
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/images/ui-bg_glass_75_e6e6e6_1x400.png
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/images/ui-icons_888888_256x240.png
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/colorbox.css
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:55:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:56:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:56:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/colorbox.css
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:56:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:57:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:57:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/css/colorbox.css
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-05-20 19:57:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /ak4/js/jquery.colorbox.js
+Stack Trace:
+#0 F:\xampp\htdocs\ak4\app\webroot\index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

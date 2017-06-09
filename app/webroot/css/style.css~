@@ -1,0 +1,11 @@
+body{background-color:#520000;font-size:17px;}
+#maindiv{background:#F4F3E8 url(images/page_bg.png);}
+#title h1 {text-align: right;font-weight: bold;font-size: 25px;margin: 0;color:#fff;}
+.container {width: 1000px;margin: 0 auto;padding: 38px 0;}
+#wrapper{margin:0px auto;}
+#sidebar {width:230px;float:left;}
+#title {width: 900px;height: 60px;float: right;}
+.clear:after {visibility: hidden;display: block;content: "";clear: both;height: 0;}
+li a {color:#fff;font-weight:700;line-height: 25px;}
+a{text-decoration:none;}
+.active {color: #F99;text-decoration: none;}

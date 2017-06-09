@@ -1,0 +1,56 @@
+2017-05-13 21:17:35 Debug: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [F:\xampp\htdocs\ak4\lib\Cake\Utility\Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Validation::notEmpty() - CORE\Cake\Utility\Validation.php, line 60
+CakeValidationRule::process() - CORE\Cake\Model\Validator\CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE\Cake\Model\Validator\CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE\Cake\Model\ModelValidator.php, line 268
+ModelValidator::validates() - CORE\Cake\Model\ModelValidator.php, line 99
+Model::validates() - CORE\Cake\Model\Model.php, line 3483
+AdminController::login() - APP\Controller\AdminController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 111
+
+2017-05-13 21:17:35 Debug: Deprecated (16384): Validation::notEmpty() is deprecated. Use Validation::notBlank() instead. in [F:\xampp\htdocs\ak4\lib\Cake\Utility\Validation.php, line 60]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Validation::notEmpty() - CORE\Cake\Utility\Validation.php, line 60
+CakeValidationRule::process() - CORE\Cake\Model\Validator\CakeValidationRule.php, line 277
+CakeValidationSet::validate() - CORE\Cake\Model\Validator\CakeValidationSet.php, line 135
+ModelValidator::errors() - CORE\Cake\Model\ModelValidator.php, line 268
+ModelValidator::validates() - CORE\Cake\Model\ModelValidator.php, line 99
+Model::validates() - CORE\Cake\Model\Model.php, line 3483
+AdminController::login() - APP\Controller\AdminController.php, line 38
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 111
+
+2017-05-13 21:17:35 Debug: Notice (8): Undefined variable: graphChart in [F:\xampp\htdocs\ak4\app\View\Home\index.ctp, line 54]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+include - APP\View\Home\index.ctp, line 54
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 111
+
+2017-05-13 21:17:35 Debug: Notice (8): Undefined variable: excelDone in [F:\xampp\htdocs\ak4\app\View\Home\index.ctp, line 68]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+include - APP\View\Home\index.ctp, line 68
+View::_evaluate() - CORE\Cake\View\View.php, line 971
+View::_render() - CORE\Cake\View\View.php, line 933
+View::render() - CORE\Cake\View\View.php, line 473
+Controller::render() - CORE\Cake\Controller\Controller.php, line 963
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 200
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 111
+
