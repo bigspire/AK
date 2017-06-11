@@ -43,7 +43,7 @@ class RegisterController extends AppController {
 				// validates the form
 				$this->Register->set($this->request->data);
 				if($this->Register->validates(array('fieldList' => array('first_name',
-				'last_name','email_id','mobile','language_id')))) {
+				'last_name','email_id','mobile','language_id', 'testing_field2')))) {
 					$this->request->data['Register']['created_by'] = $this->Session->read('USER.Login.id');				
 					$this->request->data['Register']['created_date'] = $this->Functions->get_current_date();
 					$this->request->data['Register']['otp'] = $this->Functions->get_random_otp();	
